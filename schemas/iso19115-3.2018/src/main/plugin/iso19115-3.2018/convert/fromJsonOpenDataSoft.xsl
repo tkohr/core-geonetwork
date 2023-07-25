@@ -562,9 +562,9 @@
           <cit:linkage>
             <gco:CharacterString>
               <xsl:value-of select="concat(nodeUrl,
-                                   '/explore/dataset/',
+                                   '/api/explore/v2.1/catalog/datasets/',
                                    (datasetid|dataset/dataset_id)[1],
-                                   '/download?format=', $format,
+                                   '/exports/', $format,
                                    '&amp;timezone=Europe/Berlin&amp;use_labels_for_header=false')" />
             </gco:CharacterString>
           </cit:linkage>
